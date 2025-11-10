@@ -1,0 +1,8 @@
+count = 0
+
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print(f"{i}는 3과 5의 공배수입니다.")
+        count += 1
+
+print(f"\n총 {count}개의 숫자가 3과 5의 공배수입니다.")
